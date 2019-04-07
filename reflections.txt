@@ -26,3 +26,9 @@ using GIT I can always return to previous versions and check what I've done befo
 I would like to use git to work on commits
 
 Git init and git status commands. Git status command shows the state of the repository
+
+I am going to add files with I am working on atm. Which I want to be present in the first commit. Imo it is better to add tracking to files on a step by step basis than to add them all at once as it is a more structured approach where you can control the process of transferring files from "not repository" to "indeed repository" and to control/feel how the work is moving forward.
+
+Staging area is related to the commit when the working directory is not. git status is related to both (sa & wd)
+
+Added the first commit
