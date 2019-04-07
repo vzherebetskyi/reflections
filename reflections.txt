@@ -1,0 +1,28 @@
+We can use FC command to compare different files.
+diff is a unix command
+
+Different types of version control systems
+google docs - all changessaved on drive
+wiki - view history
+Version control systems can help to track all changes and backup versions of files
+
+Git - british sleng, unpleasant person. Also Version control systems - CVS, SVN, Mercurial
+Commits in GIT are in other words checkpoints at wich we save our projects
+
+git log - see the whole history
+git diff - to compare 2 different files
+
+it is better to commit one change at a time (for instance, if 2 bugs in 2 unrelated functions were
+fixed). On the other hand to make a commit for every typo is too much
+
+repository - a collection of files
+git log --stat		some stats about changes in files
+Git allows to save multiple files in one commit due to the reason that the modern approach to the software
+development is to set a different file for a function, section or css, so GIT just saves the complex project
+Use down arrow to scroll down in git bash
+
+using GIT I can always return to previous versions and check what I've done before
+
+I would like to use git to work on commits
+
+Git init and git status commands. Git status command shows the state of the repository
