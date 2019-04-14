@@ -34,4 +34,64 @@ Staging area is related to the commit when the working directory is not. git sta
 Added the first commit
 
 We can add to the staging area files separately, one by one, so we can control the process
+
+
+feat: Added the first component and styles
+
+Conducted a huge work on adding the first component and its rendering.
+In particular worked on the webpack config, in particular on loaders,
+such as file-loader to add pictures to the bundle.
+Added the loader resolve-url-loader to deal with urls within the bundle
+- to set the correct url path after the build is bundled.
+At the same time tried to add the bootstrap - however after the bootstrap
+prerequisites are loaded and webpack config is adjusted bootstrap 
+does not work. Solved this issue through adding necessary script
+to the index.html.
+
 of adding files to the commit later!
+
+Branches help when we want to add some experimental features or something
+that we do not really need on the master branch.
+Moreover, it is helpful when we need to work in a team and to commit
+some changes that still were not reviewed or tested by the team lead
+
+Diagrams of branches help me to see all nodes, and to see and analize different parts of 
+the project. Also diagrams help me to see parent nodes and to track commits
+from the beginning to the end.
+
+git merge master(first we state the branch we want to "put" another branch) [name of the branch].
+git branch -d [name of the branch]
+The idea is that we just combine two branches into one. Positions of commits depends on their
+timestamp. Last commit becomes the "merge commit" so after merging it is a new head.
+
+Git auto merging provides the possibility to automatically find conflicts and diffs if there are
+some between different branches, it is fast, it is precise.
+At the same time the auto merge procees cannot decide what changes stay and what changes must be
+deleted. These should be done manually.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
